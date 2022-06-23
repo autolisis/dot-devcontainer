@@ -5,6 +5,8 @@
     postBuffer = 524288000
 [credential]
     helper = cache --timeout=99999
+[pull]
+    rebase = true
 [alias]
     co = restore HEAD
     conflict = diff --name-only --diff-filter=U
