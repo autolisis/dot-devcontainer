@@ -14,3 +14,4 @@ if not set -q vars_initialized
 
     set -U vars_initialized ''
 end
+direnv hook fish | source
