@@ -1,0 +1,23 @@
+[user]
+    name = reisub0
+    email = reisub0@gmail.com
+    signingkey = 58333CC586D729B4
+[commit]
+    gpgSign = true
+[http]
+    postBuffer = 524288000
+[credential]
+    helper = cache --timeout=99999
+[alias]
+    co = restore HEAD
+    conflict = diff --name-only --diff-filter=U
+    dis = restore -p
+    difad = diff --staged
+    hide = update-index --assume-unchanged
+    ic = commit -s -p
+    p = push --set-upstream origin master
+    unadd = restore --staged
+    unhide = update-index --no-assume-unchanged
+    untrack = config --local status.showUntrackedFiles no
+    w = whatchanged
+    clonemw = clone -c user.name=\"Govind KP\" -c user.email=\"govindk@mathworks.com\"
