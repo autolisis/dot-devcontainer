@@ -1,4 +1,7 @@
 #!/usr/bin/env sh
 
-git --git-dir=$HOME/.dot/.git --work-tree=$HOME checkout -f
+git clone --bare https://github.com/reisub0/dot-devcontainer ~/.dot
+git --git-dir=$HOME/.dot --work-tree=$HOME checkout -f
+
+fish -c 'curl -sL https://raw.githubusercontent.com/jorgebucaran/fisher/main/functions/fisher.fish | source && fisher update'
 
