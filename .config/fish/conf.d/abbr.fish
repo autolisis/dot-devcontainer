@@ -62,7 +62,7 @@ if not set -q abbrs_initialized
     abbr hlp 'less /etc/bash.bashrc_help'
     abbr ip 'sudo ip'
     abbr ipa 'sudo ip a'
-    abbr ktl 'kubectl'
+    abbr k 'kubectl'
     abbr l 'lsd'
     abbr la 'lsd -la'
     abbr ll 'lsd -l'
